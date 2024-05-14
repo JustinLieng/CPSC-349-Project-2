@@ -1,5 +1,7 @@
 body {
   font-family: Comic 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url("./src/pictures/anime computer.jpg");
+  overflow-x: hidden;
 }
 
 .container {
@@ -24,6 +26,7 @@ nav {
 }
 
 nav button {
+  font-size: 25px;
   background: none;
   border: none;
   color: white;
@@ -40,6 +43,8 @@ main {
   flex: auto;
   padding: 1px 20px;
   text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff2f;
 }
 
 footer {
@@ -47,4 +52,11 @@ footer {
   color: white;
   text-align: center;
   padding: 5px 0;
+}
+
+.home {
+  margin: 40px;
+  border: 1px dashed;
+  border-radius: 10%;
+  background-color: rgba(158, 158, 158, 0.432);
 }

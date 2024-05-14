@@ -35,7 +35,7 @@ function App() {
         {renderPage()}
       </main>
       <footer>
-        <p>Justin's Personal Website</p>
+        <p>Justin's Portfolio Website</p>
       </footer>
     </div>
   );

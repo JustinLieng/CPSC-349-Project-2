@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
+    <div class="home">
       <h2>Welcome to Justin's portfolio website!</h2>
       <p>In this portfolio website, I will showcase my software developer skills, projects, and much more.</p>
       <p>This is a quick little picture of myself! Head down below for a full introduction.</p>
