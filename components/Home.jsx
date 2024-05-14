@@ -13,7 +13,7 @@ const Home = () => {
       <h2>Welcome to Justin's portfolio website!</h2>
       <p>In this portfolio website, I will showcase my software developer skills, projects, and much more. 
         This is a quick little picture of myself! Head down below for a full introduction.</p>
-      <img src="pictures/nike.jpg" alt="Picture of Justin" width="400"></img>
+      <img src="nike.jpg" alt="Picture of Justin" width="400"></img>
       <h1>Hey, my name is Justin Lieng...</h1>
       <p>I am currently 22 years old and studying Computer Science at California State University Fullerton. 
         This is my 4th year at CSUF, so I will be graduating after Spring Semester of 2024.
