@@ -81,8 +81,40 @@ input, select, .submitButton {
 select {
   margin-top: 30px;
 }
+
 .phone {
   border-radius: 20%;
   margin-bottom: 30px;
   border: 2px dashed;
+}
+
+.aboutImages {
+  width: 400px;
+}
+
+.anime {
+  background: linear-gradient(to right, rgb(44, 44, 255), red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.sports {
+  background: linear-gradient(to right, rgb(1, 201, 108), rgb(68, 0, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.music {
+  background: linear-gradient(to right, rgb(212, 29, 173), rgb(199, 235, 41));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 40px;
 }

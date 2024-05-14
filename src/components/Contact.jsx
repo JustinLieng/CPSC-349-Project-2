@@ -13,7 +13,7 @@ const Contact = () => {
 
   return (
     <div className="plate">
-      <h2>Contact</h2>
+      <h1>Contact</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
