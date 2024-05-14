@@ -4,9 +4,9 @@ const Home = () => {
   return (
     <div>
         <div>
-        <img class="speechbubble" src="pictures/speech bubble.gif" width="700"></img>
+        <img class="speechbubble" src="../pictures/speech bubble.gif" width="700"></img>
         </div>
-        <iframe class="iframe" src="3D Models/Banana Cat/" width="10%"></iframe>
+        <iframe class="iframe" src="../3D Models/Banana Cat/" width="10%"></iframe>
         <iframe class="iframe" src="3D Models/Cat Box/" width="10%"></iframe>
         <iframe class="iframe" src="3D Models/Cat Box 2/" width="10%"></iframe>
     <div class="home">
