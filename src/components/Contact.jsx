@@ -60,6 +60,7 @@ const Contact = () => {
         </div>
         <button className="submitButton" type="submit">Submit</button>
       </form>
+      <img className="phone" src="https://gifdb.com/images/high/pink-aesthetic-anime-phone-dialing-2d0t9bszpz8xbe5t.gif"/>
     </div>
   );
 };
