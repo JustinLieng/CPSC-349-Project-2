@@ -20,7 +20,7 @@ const Home = () => {
       <iframe className="iframe" src="./src/3D Models/Banana Cat/" width="10%" title="Banana Cat" />
       <iframe className="iframe" src="./src/3D Models/Cat Box/" width="10%" title="Cat Box" />
       <iframe className="iframe" src="./src/3D Models/Cat Box 2/" width="10%" title="Cat Box 2" />
-      <div className="home">
+      <div className="plate">
         <h2>Welcome to Justin's portfolio website!</h2>
         <p>In this portfolio website, I will showcase my software developer skills, projects, and much more. 
           This is a quick little picture of myself! Head down below for a full introduction.</p>
