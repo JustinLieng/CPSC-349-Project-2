@@ -17,14 +17,14 @@ const Home = () => {
       <div>
         <img className="speechbubble" src="/speech bubble.gif" width="700" alt="Speech bubble" />
       </div>
-      <iframe className="iframe" src="./public/Banana Cat/" width="10%" title="Banana Cat" />
-      <iframe className="iframe" src="./public/Cat Box/" width="10%" title="Cat Box" />
-      <iframe className="iframe" src="./public/Cat Box 2/" width="10%" title="Cat Box 2" />
+      <iframe className="iframe" src="/Banana Cat/" width="10%" title="Banana Cat" />
+      <iframe className="iframe" src="/Cat Box/" width="10%" title="Cat Box" />
+      <iframe className="iframe" src="/Cat Box 2/" width="10%" title="Cat Box 2" />
       <div className="plate">
         <h2>Welcome to Justin's portfolio website!</h2>
         <p>In this portfolio website, I will showcase my software developer skills, projects, and much more. 
           This is a quick little picture of myself! Head down below for a full introduction.</p>
-        <img src="./public/nike.jpg" alt="Picture of Justin" width="400" />
+        <img src="/nike.jpg" alt="Picture of Justin" width="400" />
         <h1>Hey, my name is Justin Lieng...</h1>
         <p>I am currently 22 years old and studying Computer Science at California State University Fullerton. 
           This is my 4th year at CSUF, so I will be graduating after Spring Semester of 2024.
