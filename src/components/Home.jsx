@@ -17,7 +17,7 @@ const Home = () => {
       <div>
         <img className="speechbubble" src="./src/pictures/speech bubble.gif" width="700" alt="Speech bubble" />
       </div>
-      <iframe className="iframe" src="./src/3D Models/Banana Cat/" width="10%" title="Banana Cat" />
+      <iframe className="iframe" src="Banana Cat/" width="10%" title="Banana Cat" />
       <iframe className="iframe" src="./src/3D Models/Cat Box/" width="10%" title="Cat Box" />
       <iframe className="iframe" src="./src/3D Models/Cat Box 2/" width="10%" title="Cat Box 2" />
       <div className="plate">
