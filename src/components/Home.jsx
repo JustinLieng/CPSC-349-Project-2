@@ -35,7 +35,7 @@ const Home = () => {
         </p>
         <p>Some of my programming related skills include: (CLICK TO EXPAND) </p>
         <div>
-          <h2 onClick={toggleLanguages} style={{ cursor: 'pointer' }}>Languages {isLanguagesExpanded ? '-' : '+'}</h2>
+          <h2 className="languages" onClick={toggleLanguages} style={{ cursor: 'pointer' }}>Languages {isLanguagesExpanded ? '-' : '+'}</h2>
           {isLanguagesExpanded && (
             <p>
               - JavaScript <br />
@@ -49,7 +49,7 @@ const Home = () => {
           )}
         </div>
         <div>
-          <h2 onClick={toggleWorkflow} style={{ cursor: 'pointer' }}>Developer Workflow {isWorkflowExpanded ? '-' : '+'}</h2>
+          <h2 className="developerWorkflow" onClick={toggleWorkflow} style={{ cursor: 'pointer' }}>Developer Workflow {isWorkflowExpanded ? '-' : '+'}</h2>
           {isWorkflowExpanded && (
             <p>
               - Git/GitHub <br />

@@ -90,6 +90,40 @@ select {
 
 .aboutImages {
   width: 400px;
+  border-radius: 10%;
+}
+
+.projectImages {
+  width: 400px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+.languages {
+  background: linear-gradient(to right, rgb(196, 127, 0), red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.developerWorkflow {
+  background: linear-gradient(to right, rgb(255, 0, 234), rgb(112, 2, 202));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.projects {
+  background: linear-gradient(to right, rgb(8, 8, 8), rgb(95, 2, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 40px;
 }
 
 .anime {
@@ -117,4 +151,13 @@ select {
   color: transparent;
   font-weight: 600;
   font-size: 40px;
+}
+
+a {
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 15%;
+  margin-bottom: 30px;
+  border: 2px dashed;
+  background-color: rgb(255, 255, 255);
 }
