@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <img className="speechbubble" src="./public/speech bubble.gif" width="700" alt="Speech bubble" />
+        <img className="speechbubble" src="/speech bubble.gif" width="700" alt="Speech bubble" />
       </div>
       <iframe className="iframe" src="./public/Banana Cat/" width="10%" title="Banana Cat" />
       <iframe className="iframe" src="./public/Cat Box/" width="10%" title="Cat Box" />
