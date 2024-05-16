@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 
+// This is how I can switch pages between home, projects, about, and contacts.
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -25,7 +26,8 @@ function App() {
 
   return (
     <div className="container">
-      <nav>
+      <nav> 
+        {/* When you click the button, it changes to that page. */}
         <button onClick={() => setCurrentPage('Home')}>Home</button>
         <button onClick={() => setCurrentPage('Projects')}>Projects</button>
         <button onClick={() => setCurrentPage('About')}>About</button>
