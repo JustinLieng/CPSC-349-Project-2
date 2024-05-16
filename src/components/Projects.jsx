@@ -60,7 +60,7 @@ const Projects = () => {
       </div>
       <div className="plate">
         <h2 className="projects" onClick={toggleMoyaiApp} style={{ cursor: 'pointer' }}>Moyai App {isMoyaiAppExpanded ? '-' : '+'}</h2>
-        <img className="projectImages" src="https://media.discordapp.net/attachments/1143999259985858742/1232187323190345779/image.png?ex=6644e39e&is=6643921e&hm=a590af36ec83e62b372fed4d260c7a682fb105eea1e4b3f4260fec7c4ff4afab&=&format=webp&quality=lossless&width=550&height=261"/>
+        <img className="projectImages" src="https://blogs.nvidia.com/wp-content/uploads/2021/03/gfn-email-cloud-gaming-free-to-play-627x357@2x-672x383.jpg"/>
         {isMoyaiAppExpanded && (
           <p>
             <a href="https://github.com/HunterBendel/Moyai">Github Link</a>
